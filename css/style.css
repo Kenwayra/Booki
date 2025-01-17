@@ -124,7 +124,7 @@ body {
     margin: 50px 0 15px 0;
 }
 
-h2 {
+.title h2 {
     display: flex;
     margin-bottom: 0.5%;
 }
@@ -332,8 +332,36 @@ button.filters-setup:hover {
     margin-bottom: 5px;
 }
 
+/***Activités***/
 
 
+/***Footer***/
+/*MY CODE*/
+.footer {
+    padding: 20px 50px 0 50px;
+    box-sizing: border-box;
+}
+
+.help-and-contact {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main-bg-color);
+}
+
+.more-info {
+    margin-left: 15px;
+    margin-right: 270px;
+}
+
+.more-info h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.more-info p {
+    font-size: 10px;
+}
 
 /**Partie version responsive**/
 /*MY CODE*/
