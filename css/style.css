@@ -74,6 +74,7 @@ header {
     color: #0065FC;
     padding-top: 10%;
     margin: 0 10%;
+    cursor: pointer; 
 }
 
 .activites-header {
@@ -84,7 +85,8 @@ header {
     border-top: solid 2px #0065FC;
     color: #0065FC;
     padding-top: 10%;
-    margin: 0 0 0 10%;  
+    margin: 0 0 0 10%;
+    cursor: pointer; 
 }
 
 body {
@@ -120,7 +122,6 @@ body {
 }
 
 .title {
-    font-size: 0.95rem;
     margin: 50px 0 15px 0;
 }
 
@@ -333,7 +334,37 @@ button.filters-setup:hover {
 }
 
 /***Activités***/
+/*MY CODE*/
+.activites {
+    padding: 0 80px;
+}
 
+.activites h2 {
+    font-size: 22px;
+}
+
+.places-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-box .card {
+    display: flex;
+    width: 23%;
+    padding: 0;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.places-box img {
+    height: 375px;
+    border-radius: 20px 20px 0 0;
+}
+
+.places-txt h3 {
+    margin: 20px 0 20px 20px;
+    font-size: 85%;
+}
 
 /***Footer***/
 /*MY CODE*/
@@ -363,76 +394,11 @@ button.filters-setup:hover {
     font-size: 10px;
 }
 
-/**Partie version responsive**/
-/*MY CODE*/
-
-
-/*Large Desktop*/
-@media (min-width: 1440px) {
-    .hebergements-and-populaires {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    /*body {
-        padding: 0 15%; keeping it that way for now
-    } */
-}
-
-/*Desktop*/
-@media (max-width: 1024px) {
-    .hebergements-and-populaires {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-/*Tablet*/
-@media (max-width: 768px) {
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        width: 100%;
-    }
-
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires-cards .card {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
-}
-
-/*Mobile*/
-@media (max-width: 425px) {
-
-}
-
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px)
+/* Medium devices (tablets, less/equal than 1024px)*/
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
