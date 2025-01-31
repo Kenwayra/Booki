@@ -641,7 +641,6 @@ button.filters-setup:hover {
     header {
         padding: 0;
         flex-direction: column;
-
     }
     
     .logo {
@@ -650,99 +649,60 @@ button.filters-setup:hover {
     }
 
     .logo-box {
-        /*background-image: url(./images/logo/Booki@3x.png);*/
         justify-content: center;
         margin: 5%;
         margin-bottom: 0%;
     }
 
-    /* tentative new version */
-    .header-buttons {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    
-    .header-buttons div {
-        cursor: pointer;
-    padding: 10px;
-    text-align: center;
-    flex: 1;
-    outline: none;
-    }
-    
-    .header-buttons div:focus {
-        color: blue;
-        border-bottom: 2px solid blue;
-    }
-
-    /* older version */
-    /* .header-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        border-bottom: solid 2px var(--main-bg-color);
-        position: relative;
-        
-        /* justify-content: space-around;
+     .header-buttons {
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        border-bottom: solid 2px var(--main-bg-color) ; /
     }
 
     .activites-header {
-        margin: 5%;
-        margin-bottom: 2%;
+        margin: 0;
+        padding: 5% 16% 4% 19%;
+        border-bottom: solid 2px var(--main-bg-color);
     }
 
     .hebergements-header {
-        font-size: 14px;
-        font-weight: normal;
-        color: black;
-        padding-bottom: 10px; /* Adjust spacing to avoid shifting 
-        cursor: pointer;
-        position: relative;
-        
-        /*  margin: 5%;
-        margin-bottom: 2%; 
+        margin: 0;
+        padding: 5% 16% 4% 7%;
+        border-bottom: solid 2px var(--main-bg-color);
+    }
+
+    .hebergements-header:hover {
+        border-top: none;
+        color: #0065FC;
+        padding: 5% 16% 4% 7%;
+        margin: 0;
+        border-bottom: solid 2px var(--main-color);
     }
 
     .hebergements-header:active {
-        color: #0065FC; /* Blue text 
-        font-weight: bold;
-        
-        /* border-top: none;
+        border-top: none;
         color: #0065FC;
-        padding-top: 0;
-        margin: 5%;
-        margin-bottom: 2%; 
-    }
-
-    .hebergements-header.active::after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 2px;
-        background: #0065FC; /* Blue underline 
-        position: absolute;
-        bottom: -2px;
-        left: 0;
+        padding: 5% 16% 4% 7%;
+        margin: 0;
+        border-bottom: solid 2px var(--main-color);
     }
    
     .activites-header:hover {
         border-top: none;
         color: #0065FC;
-        padding-top: 0;
-        margin: 5%;
-        margin-bottom: 2%;
+        padding: 5% 16% 4% 19%;
+        margin: 0;
+        border-bottom: solid 2px var(--main-color);
     }
 
-   /* .activites-header:active {
+    .activites-header:active {
         border-bottom: solid 2px #0065FC;
         color: #0065FC;
-        margin: 5%;
-        margin-bottom: 2%;
-    } */ 
-    /* end older version */
+        margin: 0%;
+        padding: 5% 16% 4% 19%;
+        border-bottom: solid 2px var(--main-color);
+        /* margin-bottom: 2%; */
+    }
 
     .title {
         margin: unset;
@@ -768,12 +728,18 @@ button.filters-setup:hover {
         margin-top: 1em;
     }
 
+    .search {
+        padding-right: 0;
+        width: 100%;
+    }
+
     .search-bar {
         justify-content: center;
         margin: 1em;
     }
 
     .search-button {
+        margin-left: -10px;
         border-radius: 12px;
         padding: 0.5em 0.8em;
         filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
