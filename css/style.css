@@ -68,6 +68,7 @@ body {
 
 html {
     max-width: 1440px;
+    margin: auto;
     font-size: clamp(12px, 2vw, 16px); /* adjusts between 12px and 16px */   
 }
 
