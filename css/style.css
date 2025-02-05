@@ -325,7 +325,7 @@ button.filters-setup:hover {
 
 .hebergements-cards .card-subtitle {
     margin: 5px 0 5px 15px;
-    font-size: 5px;
+    font-size: 0.65em;
 }
 
 .hebergements-cards .card-rating {
@@ -380,7 +380,7 @@ button.filters-setup:hover {
 
 .populaires-cards .card-subtitle {
     margin: 0;
-    font-size: 5px;
+    font-size: 0.65em;
 }
 
 .populaires-cards .card-rating {
@@ -533,7 +533,7 @@ button.filters-setup:hover {
     }
 
     .more-info p {
-        font-size: 10px;
+        font-size: 0.65em;
         margin: 9px 0;
     }
 
@@ -645,7 +645,7 @@ button.filters-setup:hover {
 }
 
 /* Small devices (phones: 425px, 375px, 320px) */
-@media (max-width: 426px) {
+@media (max-width: 463px) {
     html {
         font-size: clamp(12px, 2vw, 16px);
     }     
