@@ -457,7 +457,7 @@ button.filters-setup:hover {
 }
 
 .more-info p {
-    font-size: 5px;
+    font-size: 0.65em;
     margin: 9px 0;
 }
 
@@ -645,7 +645,7 @@ button.filters-setup:hover {
 }
 
 /* Small devices (phones: 425px, 375px, 320px) */
-@media (max-width: 463px) {
+@media (max-width: 767.98px) {
     html {
         font-size: clamp(12px, 2vw, 16px);
     }     
