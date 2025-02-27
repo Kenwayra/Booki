@@ -467,7 +467,7 @@ button.filters-setup:hover {
 /* Large devices (Desktop, less/equal than 1024px) */
 @media (max-width: 1024px) {
     html {
-        font-size: 0.65em;
+        font-size: 0.75em;
     }
     
     header {
@@ -493,7 +493,7 @@ button.filters-setup:hover {
     }
 
     .section-title {
-        font-size: 14px;
+        font-size: 1.5em;
     }
 
     .card-title {
@@ -501,7 +501,7 @@ button.filters-setup:hover {
     }
 
     .card-subtitle {
-        font-size: 9px;
+        font-size: 0.75em;
     }
 
     .activites {
@@ -533,7 +533,7 @@ button.filters-setup:hover {
     }
 
     .more-info p {
-        font-size: 0.65em;
+        font-size: 0.75em;
         margin: 9px 0;
     }
 
